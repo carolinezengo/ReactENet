@@ -1,0 +1,47 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\source\\repos\\ReactENET\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{98AD2796-21F9-457B-802E-50A7802F34C6}|reactenet.client\\reactenet.client.esproj|c:\\users\\pc\\source\\repos\\reactenet\\reactenet.client\\vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{98AD2796-21F9-457B-802E-50A7802F34C6}|reactenet.client\\reactenet.client.esproj|solutionrelative:reactenet.client\\vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "vite.config.js",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\ReactENET\\reactenet.client\\vite.config.js",
+              "RelativeDocumentMoniker": "reactenet.client\\vite.config.js",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\ReactENET\\reactenet.client\\vite.config.js",
+              "RelativeToolTip": "reactenet.client\\vite.config.js",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAC0AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-08T17:09:35.958Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
