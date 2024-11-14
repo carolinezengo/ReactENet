@@ -34,3 +34,4 @@ C:\Users\PC\source\repos\ReactENET\ReactENET.Server\obj\Debug\net8.0\refint\Reac
 C:\Users\PC\source\repos\ReactENET\ReactENET.Server\obj\Debug\net8.0\ReactENET.Server.pdb
 C:\Users\PC\source\repos\ReactENET\ReactENET.Server\obj\Debug\net8.0\ReactENET.Server.genruntimeconfig.cache
 C:\Users\PC\source\repos\ReactENET\ReactENET.Server\obj\Debug\net8.0\ref\ReactENET.Server.dll
+C:\Users\PC\source\repos\ReactENET\ReactENET.Server\obj\Debug\net8.0\ReactENET.Server.sourcelink.json

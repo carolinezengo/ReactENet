@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ReactENET.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+78c4b618a43a9cf19121899ea994e6d3bc4ca040")]
 [assembly: System.Reflection.AssemblyProductAttribute("ReactENET.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ReactENET.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

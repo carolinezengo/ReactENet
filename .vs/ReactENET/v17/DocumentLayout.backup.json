@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\source\\repos\\ReactENET\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{98AD2796-21F9-457B-802E-50A7802F34C6}|reactenet.client\\reactenet.client.esproj|c:\\users\\pc\\source\\repos\\reactenet\\reactenet.client\\vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{98AD2796-21F9-457B-802E-50A7802F34C6}|reactenet.client\\reactenet.client.esproj|solutionrelative:reactenet.client\\vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{98AD2796-21F9-457B-802E-50A7802F34C6}|reactenet.client\\reactenet.client.esproj|c:\\users\\pc\\source\\repos\\reactenet\\reactenet.client\\src\\componentes\\formulario\\formulariologin.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{98AD2796-21F9-457B-802E-50A7802F34C6}|reactenet.client\\reactenet.client.esproj|solutionrelative:reactenet.client\\src\\componentes\\formulario\\formulariologin.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98AD2796-21F9-457B-802E-50A7802F34C6}|reactenet.client\\reactenet.client.esproj|c:\\users\\pc\\source\\repos\\reactenet\\reactenet.client\\src\\componentes\\formulario\\styles.module.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
+      "RelativeMoniker": "D:0:0:{98AD2796-21F9-457B-802E-50A7802F34C6}|reactenet.client\\reactenet.client.esproj|solutionrelative:reactenet.client\\src\\componentes\\formulario\\styles.module.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98AD2796-21F9-457B-802E-50A7802F34C6}|reactenet.client\\reactenet.client.esproj|c:\\users\\pc\\source\\repos\\reactenet\\reactenet.client\\src\\pages\\home\\home.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{98AD2796-21F9-457B-802E-50A7802F34C6}|reactenet.client\\reactenet.client.esproj|solutionrelative:reactenet.client\\src\\pages\\home\\home.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98AD2796-21F9-457B-802E-50A7802F34C6}|reactenet.client\\reactenet.client.esproj|c:\\users\\pc\\source\\repos\\reactenet\\reactenet.client\\src\\pages\\home\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{98AD2796-21F9-457B-802E-50A7802F34C6}|reactenet.client\\reactenet.client.esproj|solutionrelative:reactenet.client\\src\\pages\\home\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +26,58 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Home.jsx",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\ReactENET\\reactenet.client\\src\\Pages\\Home\\Home.jsx",
+              "RelativeDocumentMoniker": "reactenet.client\\src\\Pages\\Home\\Home.jsx",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\ReactENET\\reactenet.client\\src\\Pages\\Home\\Home.jsx*",
+              "RelativeToolTip": "reactenet.client\\src\\Pages\\Home\\Home.jsx*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-11-14T18:41:44.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "styles.css",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\ReactENET\\reactenet.client\\src\\Pages\\Home\\styles.css",
+              "RelativeDocumentMoniker": "reactenet.client\\src\\Pages\\Home\\styles.css",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\ReactENET\\reactenet.client\\src\\Pages\\Home\\styles.css",
+              "RelativeToolTip": "reactenet.client\\src\\Pages\\Home\\styles.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-14T18:41:42.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "styles.module.scss",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\ReactENET\\reactenet.client\\src\\Componentes\\Formulario\\styles.module.scss",
+              "RelativeDocumentMoniker": "reactenet.client\\src\\Componentes\\Formulario\\styles.module.scss",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\ReactENET\\reactenet.client\\src\\Componentes\\Formulario\\styles.module.scss*",
+              "RelativeToolTip": "reactenet.client\\src\\Componentes\\Formulario\\styles.module.scss*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
+              "WhenOpened": "2024-11-14T13:59:45.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "vite.config.js",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\ReactENET\\reactenet.client\\vite.config.js",
-              "RelativeDocumentMoniker": "reactenet.client\\vite.config.js",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\ReactENET\\reactenet.client\\vite.config.js",
-              "RelativeToolTip": "reactenet.client\\vite.config.js",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAC0AAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-11-08T17:09:35.958Z",
+              "Title": "FormularioLogin.jsx",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\ReactENET\\reactenet.client\\src\\Componentes\\Formulario\\FormularioLogin.jsx",
+              "RelativeDocumentMoniker": "reactenet.client\\src\\Componentes\\Formulario\\FormularioLogin.jsx",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\ReactENET\\reactenet.client\\src\\Componentes\\Formulario\\FormularioLogin.jsx",
+              "RelativeToolTip": "reactenet.client\\src\\Componentes\\Formulario\\FormularioLogin.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-11-14T13:59:50.951Z",
               "EditorCaption": ""
             }
           ]

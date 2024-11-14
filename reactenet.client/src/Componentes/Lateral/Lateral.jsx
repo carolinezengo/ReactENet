@@ -1,12 +1,13 @@
-import './styles.css';
+import style from "../Lateral/styles.module.scss";
+
+
+
 function Lateral() {
     return (
-       
-            <div className="divlateral" >
-
-            <h1>Seja Bem Vindo!!</h1>
-            </div>
-
+      
+            <div className={ style.lateral}></div>
+           
+        
   
        
       

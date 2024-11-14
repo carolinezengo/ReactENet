@@ -1,61 +1,103 @@
-import './styles.css';
-import { useState, useEffect } from 'react';
+import styles from "../Formulario/styles.module.scss"; 
+import { useState, FormEvent } from 'react';
 import React, { Component } from 'react';
+import { useNavigate } from 'react-router-dom';
+
+import axios from 'axios';
+
 
 let FormStateLogin = {
-    email: '',
-    senha: ''
+    email1: ''
+   
 
 };
 function FormularioLogin() {
 
-    const [login, setLogin] = useState(FormStateLogin);
+   
+    const [senhauser, setSenhalUser] = useState("");
+    const [emailuser, setEmailUser] = useState("");
+    const [usuarios, setUsuarios] = useState([]);
+   
 
-    useEffect(() => {
+   
+    async function populateLogin() {
+        await axios.get(`api/usuario/`).then((response) => setUsuarios(response.data));
+
+    };
+
+  
+    const navigate = useNavigate();
+   
+    const inciarAbout = () => {
+        navigate('/about');
+    }
+
+    function handleSubmit(event) {
+    
+     alert('Um nome foi enviado: ' + emailuser);
+
+        event.preventDefault();
         populateLogin();
-    }, []);
+       
+     
+        usuarios.forEach(function (usuario) {
+            if (usuario.Email == emailuser && usuario.Senha == senhauser) {
+                
+                inciarAbout();
+                console.log("email ");
+               
+            } else
+                console.log("email nao cadastrado");
+           
+        });
+           
 
-    const handleChange = (event) => {
-        const {name, value } = event.target;
-        setLogin({ ...login,[name]: value });
        
 
     }
+    const emailTeste = "";
 
-    const handleSubmit = (event) => {
-        alert('Um nome foi enviado: ' + login.email);
-        event.preventDefault();
-        console.log(login);
-    }
+    return (
 
-  
-        return (
-            <form onSubmit={handleSubmit}>
-                <label htmlFor="task-email"> Email: </label>
 
-                <input type="text" id="task-email" name="email " defaultValue={login.email} placeholder="Digite email"
-                    onChange={handleChange} />
+        <section className={styles.container}>
 
-                <label htmlFor="task-senha"> Senha: </label>
+            <form
+              onSubmit={handleSubmit}>
+                <div>
+                    <label htmlFor="task-email"> Email: </label>
 
-                <input type="text" id="task-senha" name="senha"
-                    defaultValue={login.senha}
-                    placeholder="Digite senha"
-                    onChange={handleChange} />
+                    <input type="text"
+                        id="task-email"
+                        name="email "
+                        value={emailuser}
+                        placeholder="Digite email"
+                        onChange={(event) => setEmailUser(event.target.value)} />
 
-                <input type="submit" value="Enviar formulário!" />
+                    <label htmlFor="task-senha"> Senha: </label>
+
+                    <input type="text"
+                        id="task-senha"
+                        name="senha"
+                        value={senhauser}
+                        placeholder="Digite senha"
+                        onChange={(event) => setSenhalUser(event.target.value)} />
+                    <button type="submit">Logar</button>
+
+
+                </div>
+              
+                
+
+               
             </form>
-        );
 
-    async function populateLogin() {
-        const response = await fetch('usuario');
-        if (response) {
-            console.log("ok");
-        }
-        else
-        console.log('....')
+         </section>
       
-    }
+    );
+   
+    
 
-}
+}    
+    
 export default FormularioLogin;

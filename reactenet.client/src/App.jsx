@@ -1,27 +1,27 @@
 
 import React, { Component } from 'react';
 import './App.css';
-import Home from '../src/Componentes/Home/Home';
+import { Outlet } from "react-router-dom";
 
+class App extends React.Component {
+    
 
-export default class App extends React.Component {
-    render(){
+     render() {
 
-        return (
-           
+         return (
+             <div>
+                 <Outlet />
 
-            <Home />
-              
+               
 
-              
-           
-
-
-        );
-
-
-    }
-  
+             
+             </div>
+            
+         );
+     }
+   
+      
        
 }
+export default App;
 

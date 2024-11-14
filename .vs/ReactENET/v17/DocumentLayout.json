@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\source\\repos\\ReactENET\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{98AD2796-21F9-457B-802E-50A7802F34C6}|reactenet.client\\reactenet.client.esproj|c:\\users\\pc\\source\\repos\\reactenet\\reactenet.client\\vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{98AD2796-21F9-457B-802E-50A7802F34C6}|reactenet.client\\reactenet.client.esproj|solutionrelative:reactenet.client\\vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{98AD2796-21F9-457B-802E-50A7802F34C6}|reactenet.client\\reactenet.client.esproj|c:\\users\\pc\\source\\repos\\reactenet\\reactenet.client\\src\\pages\\about\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{98AD2796-21F9-457B-802E-50A7802F34C6}|reactenet.client\\reactenet.client.esproj|solutionrelative:reactenet.client\\src\\pages\\about\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98AD2796-21F9-457B-802E-50A7802F34C6}|reactenet.client\\reactenet.client.esproj|c:\\users\\pc\\source\\repos\\reactenet\\reactenet.client\\src\\pages\\about\\about.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{98AD2796-21F9-457B-802E-50A7802F34C6}|reactenet.client\\reactenet.client.esproj|solutionrelative:reactenet.client\\src\\pages\\about\\about.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{797D1C1C-CE48-4657-A0EF-26C961AA952D}|ReactENET.Server\\ReactENET.Server.csproj|c:\\users\\pc\\source\\repos\\reactenet\\reactenet.server\\entidades\\acessotokeneurl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{797D1C1C-CE48-4657-A0EF-26C961AA952D}|ReactENET.Server\\ReactENET.Server.csproj|solutionrelative:reactenet.server\\entidades\\acessotokeneurl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +22,45 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "About.jsx",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\ReactENET\\reactenet.client\\src\\Pages\\About\\About.jsx",
+              "RelativeDocumentMoniker": "reactenet.client\\src\\Pages\\About\\About.jsx",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\ReactENET\\reactenet.client\\src\\Pages\\About\\About.jsx",
+              "RelativeToolTip": "reactenet.client\\src\\Pages\\About\\About.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-11-14T20:25:13.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "vite.config.js",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\ReactENET\\reactenet.client\\vite.config.js",
-              "RelativeDocumentMoniker": "reactenet.client\\vite.config.js",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\ReactENET\\reactenet.client\\vite.config.js",
-              "RelativeToolTip": "reactenet.client\\vite.config.js",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAAC0AAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-11-08T17:09:35.958Z",
+              "Title": "styles.css",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\ReactENET\\reactenet.client\\src\\Pages\\About\\styles.css",
+              "RelativeDocumentMoniker": "reactenet.client\\src\\Pages\\About\\styles.css",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\ReactENET\\reactenet.client\\src\\Pages\\About\\styles.css",
+              "RelativeToolTip": "reactenet.client\\src\\Pages\\About\\styles.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-14T20:24:57.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AcessoTokenEUrl.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\ReactENET\\ReactENET.Server\\Entidades\\AcessoTokenEUrl.cs",
+              "RelativeDocumentMoniker": "ReactENET.Server\\Entidades\\AcessoTokenEUrl.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\ReactENET\\ReactENET.Server\\Entidades\\AcessoTokenEUrl.cs",
+              "RelativeToolTip": "ReactENET.Server\\Entidades\\AcessoTokenEUrl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T20:24:11.153Z",
               "EditorCaption": ""
             }
           ]
